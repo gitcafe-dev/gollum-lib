@@ -122,7 +122,7 @@ module Gollum
       toc = nil
       doc.css('h1,h2,h3,h4,h5,h6').each do |h|
         # must escape "
-        h_name = h.content.gsub(' ','-').gsub('"','%22')
+        h_name = h.content.gsub(' ','-').gsub('"','%22').downcase
 
         level = h.name.gsub(/[hH]/,'').to_i
 
