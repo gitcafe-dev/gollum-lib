@@ -318,6 +318,10 @@ module Gollum
       !!@historical
     end
 
+    def to_param
+      filename_stripped
+    end
+
     #########################################################################
     #
     # Class Methods
