@@ -263,14 +263,14 @@ gollum-lib$ rake build
 gollum-lib$ rake install
 ```
 
-## RUN THE TESTS
+## Run the tests (ops)
 
 ```bash
 $ bundle install
 $ bundle exec rake test
 ```
 
-## WORK WITH TEST REPOS
+## Work with test repos
 
 An example of how to add a test file to the bare repository `lotr.git`.
 
