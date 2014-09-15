@@ -263,7 +263,7 @@ gollum-lib$ rake build
 gollum-lib$ rake install
 ```
 
-## Run the tests (ops)
+## Run the tests (oops)
 
 ```bash
 $ bundle install
