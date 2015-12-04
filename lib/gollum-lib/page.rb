@@ -104,6 +104,7 @@ module Gollum
     def filename_stripped
       self.class.strip_filename(filename)
     end
+    alias_method :to_param, :filename_stripped
 
     # Public: The canonical page name without extension, and dashes converted
     # to spaces.
